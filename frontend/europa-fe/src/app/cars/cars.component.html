@@ -1,0 +1,24 @@
+<div class="container">
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">Model</th>
+      <th scope="col">Make</th>
+      <th scope="col">Type</th>
+      <th scope="col">Seats</th>
+      <th scope="col">MPG</th>
+      <th scope="col">Safety Rating</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let car of MockCars">
+      <td>{{car.model}}</td>
+      <td>{{car.make}}</td>
+      <td>{{car.type}}</td>
+      <td>{{car.seats}}</td>
+      <td>{{car.mpg}}</td>
+      <td>{{car.safety}}</td>
+    </tr>
+  </tbody>
+</table>
+</div>

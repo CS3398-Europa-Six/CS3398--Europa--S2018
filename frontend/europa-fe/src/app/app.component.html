@@ -1,7 +1,7 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">
-     <img src="/assets/img/car.svg" width="30" height="30" alt="">
-     CARS (WIP)
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#" style="font-family:Teko; font-size:195%">
+     <img src="/assets/img/tools-and-utensils.svg" width="40" height="40" class="d-inline-block align-top mr-2" alt="">
+     CAR-CENSUS
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -9,29 +9,24 @@
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="/dash">Dash<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/cars">View Cars</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Placeholder</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Placeholder</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Placeholder Again
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">More placeholders</a>
-          <a class="dropdown-item" href="#">Another placeholder</a>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
       </li>
     </ul>
+
   </div>
+  <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+
 </nav>
 
 <div class="container">
-   <img src="/assets/img/automobile.svg" height="128" width="128">
-   <p>under construction</p>
-</div> 
+	<router-outlet></router-outlet>
+</div>
