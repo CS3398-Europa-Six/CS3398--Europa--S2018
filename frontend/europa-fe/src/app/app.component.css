@@ -1,13 +1,17 @@
 h1 {
-    font-family: 'Teko', sans-serif;
+    font-family: 'K2D', sans-serif;
 }
 
 .navbar {
     margin-bottom: 10px;
 }
 
+.nav-item {
+    margin-left: 10px;
+}
+
 img {
-    margin-left:200px;
+    margin-left:20px;
 }
 
 .form-inline{

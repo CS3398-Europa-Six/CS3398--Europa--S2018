@@ -2,13 +2,15 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
 
-import { DashComponent } from './dash/dash.component';
+import { HomeComponent } from './home/home.component';
 import { CarsComponent } from './cars/cars.component';
+import { ChangelogComponent } from './changelog/changelog.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/dash', pathMatch: 'full' },
-  { path: 'dash', component: DashComponent },
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
+  { path: 'home', component: HomeComponent },
   { path: 'cars', component: CarsComponent },
+  { path: 'changelog', component: ChangelogComponent },
 
   ]
 

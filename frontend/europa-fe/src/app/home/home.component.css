@@ -3,6 +3,11 @@
   min-width: auto;
 }
 
+.jumbotron { 
+  background-color: #efefef;
+  margin-top: 100px;
+}
+
 .carousel-caption {
    right: auto;
    left: 10%;

@@ -4,14 +4,18 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './/app-routing.module';
-import { DashComponent } from './dash/dash.component';
+import { HomeComponent } from './home/home.component';
 import { CarsComponent } from './cars/cars.component';
+import { ChangelogComponent } from './changelog/changelog.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DashComponent,
-    CarsComponent
+    HomeComponent,
+    CarsComponent,
+    ChangelogComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
