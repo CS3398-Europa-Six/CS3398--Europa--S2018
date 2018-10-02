@@ -1,0 +1,42 @@
+<div class="container-fluid">
+      <div class="row">
+        <nav class="col-sm-3 col-md-2 hidden-xs-down bg-faded sidebar">
+          <ul class="nav nav-pills flex-column">
+            <li class="nav-item">
+              <a class="nav-link" routerLink="overview" routerLinkActive="active">Overview</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="vehicles" routerLinkActive="active">My Vehicles</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Find a Vehicle</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Add Custom Vehicle</a>
+            </li>
+          </ul>
+
+          <ul class="nav nav-pills flex-column">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Analytics</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Export Data</a>
+            </li>
+          </ul>
+
+
+           </nav>
+	<main class="col-sm-9 col-md-10">
+		<section class="row">
+    	    <h1>Dashboard</h1>
+		</section>
+		<section class="row">
+			<router-outlet></router-outlet>
+		</section>
+	
+
+	</main>
+	</div>
+        
+</div>

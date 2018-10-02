@@ -5,9 +5,11 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { HomeComponent } from './home/home.component';
-import { CarsComponent } from './cars/cars.component';
+import { CarsComponent } from './dash/cars/cars.component';
 import { ChangelogComponent } from './changelog/changelog.component';
 import { FooterComponent } from './footer/footer.component';
+import { DashComponent } from './dash/dash.component';
+import { OverviewComponent } from './dash/overview/overview.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { FooterComponent } from './footer/footer.component';
     HomeComponent,
     CarsComponent,
     ChangelogComponent,
-    FooterComponent
+    FooterComponent,
+    DashComponent,
+    OverviewComponent
   ],
   imports: [
     BrowserModule,
