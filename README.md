@@ -1,10 +1,15 @@
 # CS3398--Europa--S2018
 
-To install this:
+Supercharged is currently in its alpha state:
 
-Clone repo
-Make sure you have Node and NPM installed
-Hit dat npm install in your console
-Do npm start
-Or optionally if you have Angular CLI
-Do ng serve
+Version 0.0.0\n\n
+
+To install this:\n\n
+
+Clone repo\n
+Make sure you have Node and NPM installed\n
+Execute command: npm install in your console\n
+Execute command: npm start\n
+Optionally if Angular CLI is installed,\n
+Execute command: ng serve\n
+Browse to localhost:4200\n
