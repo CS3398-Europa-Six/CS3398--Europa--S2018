@@ -7,11 +7,13 @@ import { CarsComponent } from './dash/cars/cars.component';
 import { ChangelogComponent } from './changelog/changelog.component';
 import { DashComponent } from './dash/dash.component';
 import { OverviewComponent } from './dash/overview/overview.component';
+import { LoginComponent } from './login/login.component';
 
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
+  { path: 'login', component: LoginComponent },
   { path: 'changelog', component: ChangelogComponent },
   { path: 'dash', component: DashComponent
      children: [
@@ -19,8 +21,7 @@ const routes: Routes = [
         { path: 'vehicles', component: CarsComponent },
      ]
   },
-
-
+]
 @NgModule({
   imports: [
      CommonModule,

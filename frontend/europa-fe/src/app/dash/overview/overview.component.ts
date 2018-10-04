@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Car } from '../cars/car';
+
 
 @Component({
   selector: 'app-overview',

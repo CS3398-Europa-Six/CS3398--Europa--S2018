@@ -10,6 +10,9 @@ import { ChangelogComponent } from './changelog/changelog.component';
 import { FooterComponent } from './footer/footer.component';
 import { DashComponent } from './dash/dash.component';
 import { OverviewComponent } from './dash/overview/overview.component';
+import { SignupComponent } from './signup/signup.component';
+import { LoginComponent } from './login/login.component';
+import { SimplesearchComponent } from './simplesearch/simplesearch.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +22,10 @@ import { OverviewComponent } from './dash/overview/overview.component';
     ChangelogComponent,
     FooterComponent,
     DashComponent,
-    OverviewComponent
+    OverviewComponent,
+    SignupComponent,
+    LoginComponent,
+    SimplesearchComponent
   ],
   imports: [
     BrowserModule,
