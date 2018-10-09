@@ -8,6 +8,7 @@ import { ChangelogComponent } from './changelog/changelog.component';
 import { DashComponent } from './dash/dash.component';
 import { OverviewComponent } from './dash/overview/overview.component';
 import { LoginComponent } from './login/login.component';
+import { SimplesearchComponent } from './simplesearch/simplesearch.component';
 
 
 const routes: Routes = [
@@ -15,10 +16,11 @@ const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'login', component: LoginComponent },
   { path: 'changelog', component: ChangelogComponent },
-  { path: 'dash', component: DashComponent
+  { path: 'dash', component: DashComponent,
      children: [
         { path: 'overview', component: OverviewComponent },
         { path: 'vehicles', component: CarsComponent },
+        { path: 'simplesearch', component: SimplesearchComponent}
      ]
   },
 ]
