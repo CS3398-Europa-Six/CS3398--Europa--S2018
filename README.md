@@ -20,3 +20,14 @@ Execute command: ng serve
 
 Browse to localhost:4200
 
+
+--------------------------------------------------------------------------------------------------
+Currently the project has a frontend that is working.
+The database will be integrated into the frontend during the second sprint.
+
+Next thing to work on:
+Phillip - 
+Trenton - 
+Fernando - 
+Nathan - 
+Chase - 
