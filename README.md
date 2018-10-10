@@ -26,8 +26,13 @@ Currently the project has a frontend that is working.
 The database will be integrated into the frontend during the second sprint.
 
 Next thing to work on:
-Phillip - 
+
+Phillip - Creating Injectables/Services to use the Database API in the front end
+
 Trenton - 
+
 Fernando - 
+
 Nathan - 
+
 Chase - 
