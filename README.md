@@ -35,4 +35,4 @@ Fernando -
 
 Nathan - Using Flask web framework to pull sqlite data and push to site.
 
-Chase - 
+Chase - Help work on database functionality and information/access
