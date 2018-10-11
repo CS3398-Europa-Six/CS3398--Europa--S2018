@@ -31,7 +31,8 @@ Phillip - Creating Injectables/Services to use the Database API in the front end
 
 Trenton - 
 
-Fernando - 
+Fernando - Continue gathering free data sets and merge to create a diverse and extensive dataabase.
+		   Follow up on API's referenced by USAA presenter and find alternatives that are free.
 
 Nathan - 
 
