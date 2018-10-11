@@ -29,7 +29,7 @@ Next thing to work on:
 
 Phillip - Creating Injectables/Services to use the Database API in the front end
 
-Trenton - 
+Trenton - I'll be adding pages to the website like the about us, contact us, user login page, advanced search, account page etc.
 
 Fernando - 
 
