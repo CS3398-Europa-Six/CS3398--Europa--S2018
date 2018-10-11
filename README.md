@@ -33,6 +33,6 @@ Trenton -
 
 Fernando - 
 
-Nathan - 
+Nathan - Using Flask web framework to pull sqlite data and push to site.
 
 Chase - 
