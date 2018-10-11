@@ -22,7 +22,7 @@ Browse to localhost:4200
 
 
 --------------------------------------------------------------------------------------------------
-Currently the project has a frontend that is working.
+Currently the project has a frontend that is working.Some of the links just auto go to the homepage, we will be implimenting more of the pages they are supposed to be going to during the second sprint.
 The database will be integrated into the frontend during the second sprint.
 
 Next thing to work on:
