@@ -9,6 +9,8 @@ import { DashComponent } from './dash/dash.component';
 import { OverviewComponent } from './dash/overview/overview.component';
 import { LoginComponent } from './login/login.component';
 import { SimplesearchComponent } from './simplesearch/simplesearch.component';
+import { AdvancedSearchComponent } from './advanced-search/advanced-search.component';
+import { AddCarComponent } from './dash/add-car/add-car.component';
 
 
 const routes: Routes = [
@@ -20,7 +22,9 @@ const routes: Routes = [
      children: [
         { path: 'overview', component: OverviewComponent },
         { path: 'vehicles', component: CarsComponent },
-        { path: 'simplesearch', component: SimplesearchComponent}
+        { path: 'simplesearch', component: SimplesearchComponent},
+	{ path: 'advancedsearch', component: AdvancedSearchComponent },
+        { path: 'addcar', component: AddCarComponent },
      ]
   },
 ]

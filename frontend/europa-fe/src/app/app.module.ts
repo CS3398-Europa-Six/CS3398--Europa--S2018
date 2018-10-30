@@ -13,6 +13,9 @@ import { OverviewComponent } from './dash/overview/overview.component';
 import { SignupComponent } from './signup/signup.component';
 import { LoginComponent } from './login/login.component';
 import { SimplesearchComponent } from './simplesearch/simplesearch.component';
+import { AdvancedSearchComponent } from './advanced-search/advanced-search.component';
+import { ContactComponent } from './contact/contact.component';
+import { AddCarComponent } from './dash/add-car/add-car.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +28,10 @@ import { SimplesearchComponent } from './simplesearch/simplesearch.component';
     OverviewComponent,
     SignupComponent,
     LoginComponent,
-    SimplesearchComponent
+    SimplesearchComponent,
+    AdvancedSearchComponent,
+    ContactComponent,
+    AddCarComponent
   ],
   imports: [
     BrowserModule,
