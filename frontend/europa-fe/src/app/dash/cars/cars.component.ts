@@ -1,34 +1,31 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
 import { Car } from './car';
+import { CarsApiService } from './cars-api.service';
+import { Subscription } from 'rxjs/Subscription';
 
 @Component({
   selector: 'app-cars',
   templateUrl: './cars.component.html',
   styleUrls: ['./cars.component.css']
 })
-export class CarsComponent implements OnInit {
+export class CarsComponent implements OnInit, OnDestroy {
+  carsListSubs: Subscription;
+  carsList: Car[]
 
-  carOne: Car = new Car("2008 WRX", "Subaru", "Compact", "4", "23.0", "4")
-  carTwo: Car = new Car("2008 WRX", "Subaru", "Compact", "4", "23.0", "4")
-  carThree: Car = new Car("2008 WRX", "Subaru", "Compact", "4", "23.0", "4")
-  carFour: Car = new Car("2008 WRX", "Subaru", "Compact", "4", "23.0", "4")
-  carFive: Car = new Car("2008 WRX", "Subaru", "Compact", "4", "23.0", "4")
-  carSix: Car = new Car("2008 WRX", "Subaru", "Compact", "4", "23.0", "4")
-  carSeven: Car = new Car("2008 WRX", "Subaru", "Compact", "4", "23.0", "4")
-
-  MockCars: Car[] = [
-  this.carOne,
-  this.carTwo,
-  this.carThree,
-  this.carFour,
-  this.carFive,
-  this.carSix,
-  this.carSeven,
-  ]
-
-  constructor() { }
+  constructor(private carsApi: CarsApiService) { }
 
   ngOnInit() {
+     this.carsListSubs = this.carsApi
+        .getCars()
+        .subscribe(res => {
+            this.carsList = res;
+        },
+        console.error
+     );
   }
+  ngOnDestroy() {
+     this.carsListSubs.unsubscribe();
+  }
+
 
 }

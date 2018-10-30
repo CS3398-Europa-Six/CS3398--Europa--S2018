@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { HttpClientModule } from '@angular/common/http'; 
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './/app-routing.module';
@@ -14,7 +15,7 @@ import { SignupComponent } from './signup/signup.component';
 import { LoginComponent } from './login/login.component';
 import { SimplesearchComponent } from './simplesearch/simplesearch.component';
 import { AdvancedSearchComponent } from './advanced-search/advanced-search.component';
-import { ContactComponent } from './contact/contact.component';
+import { CarsApiService } from './dash/cars/cars-api.service';
 import { AddCarComponent } from './dash/add-car/add-car.component';
 
 @NgModule({
@@ -30,15 +31,15 @@ import { AddCarComponent } from './dash/add-car/add-car.component';
     LoginComponent,
     SimplesearchComponent,
     AdvancedSearchComponent,
-    ContactComponent,
     AddCarComponent
   ],
   imports: [
     BrowserModule,
     NgbModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [CarsApiService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
