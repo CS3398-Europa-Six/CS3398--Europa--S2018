@@ -22,12 +22,13 @@ Browse to localhost:4200
 
 
 --------------------------------------------------------------------------------------------------
-Currently the project has a frontend that is working.Some of the links just auto go to the homepage, we will be implimenting more of the pages they are supposed to be going to during the second sprint.
-The database will be integrated into the frontend during the second sprint.
+Currently Status: Hooked it up
+
+Front end is connected to the backend, backend correctly populates the database
 
 Next thing to work on:
 
-Phillip - Creating Injectables/Services to use the Database API in the front end
+Phillip - Creating actual user functionality, Filtering data, Receiving user inputs
 
 Trenton - I'll be adding pages to the website like the about us, contact us, user login page, advanced search, account page etc.
 
