@@ -13,6 +13,7 @@ import { DashComponent } from './dash/dash.component';
 import { OverviewComponent } from './dash/overview/overview.component';
 import { SignupComponent } from './signup/signup.component';
 import { LoginComponent } from './login/login.component';
+import { ContactComponent } from './contact/contact.component';
 import { SimplesearchComponent } from './simplesearch/simplesearch.component';
 import { AdvancedSearchComponent } from './advanced-search/advanced-search.component';
 import { CarsApiService } from './dash/cars/cars-api.service';
@@ -24,6 +25,7 @@ import { AddCarComponent } from './dash/add-car/add-car.component';
     HomeComponent,
     CarsComponent,
     ChangelogComponent,
+    ContactComponent,
     FooterComponent,
     DashComponent,
     OverviewComponent,

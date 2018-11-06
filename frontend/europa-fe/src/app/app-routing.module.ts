@@ -10,6 +10,7 @@ import { OverviewComponent } from './dash/overview/overview.component';
 import { LoginComponent } from './login/login.component';
 import { SimplesearchComponent } from './simplesearch/simplesearch.component';
 import { AdvancedSearchComponent } from './advanced-search/advanced-search.component';
+import { ContactComponent } from './contact/contact.component';
 import { AddCarComponent } from './dash/add-car/add-car.component';
 
 
@@ -18,6 +19,7 @@ const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'login', component: LoginComponent },
   { path: 'changelog', component: ChangelogComponent },
+  { path: 'contact', component: ContactComponent },
   { path: 'dash', component: DashComponent,
      children: [
         { path: 'overview', component: OverviewComponent },
