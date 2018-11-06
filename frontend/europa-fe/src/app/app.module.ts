@@ -17,6 +17,7 @@ import { SimplesearchComponent } from './simplesearch/simplesearch.component';
 import { AdvancedSearchComponent } from './advanced-search/advanced-search.component';
 import { CarsApiService } from './dash/cars/cars-api.service';
 import { AddCarComponent } from './dash/add-car/add-car.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { AddCarComponent } from './dash/add-car/add-car.component';
     LoginComponent,
     SimplesearchComponent,
     AdvancedSearchComponent,
-    AddCarComponent
+    AddCarComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

@@ -11,7 +11,7 @@ import { LoginComponent } from './login/login.component';
 import { SimplesearchComponent } from './simplesearch/simplesearch.component';
 import { AdvancedSearchComponent } from './advanced-search/advanced-search.component';
 import { AddCarComponent } from './dash/add-car/add-car.component';
-
+import { AboutComponent } from './about/about.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -27,6 +27,7 @@ const routes: Routes = [
         { path: 'addcar', component: AddCarComponent },
      ]
   },
+  { path: 'about', component: AboutComponent},   
 ]
 @NgModule({
   imports: [
