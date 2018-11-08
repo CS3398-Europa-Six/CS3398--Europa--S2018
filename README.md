@@ -54,4 +54,4 @@ Fernando - Pending rates from commercial APIs, I will assist in API implementati
 
 Nathan - 
 
-Chase - 
+Chase - Expand the existing db files. Then we need to get the website to display more information with queries. Also look into the alternative of an existing API. Can look into method to have user/pass into a users.db
