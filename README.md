@@ -37,3 +37,20 @@ Fernando - Pending rates from commercial APIs, assist in API implementation
 Nathan - Added SQLite database and explored flask functions. Next step find api and work on web intigration.
 
 Chase - Help work on database functionality and information/access
+
+--------------------------------------------------------------------------------------------------
+											11/7/18
+Current Status : The website has more pages added to it, we finally got the database connected to the 
+		 website and can start displaying all the data
+		 
+Next thing to work on:
+Phillip - 
+
+Trenton - I'll be working more with the frontend to modify that about us page, I'll also be changing up the header/footer,
+	  adding a contact us page (moving the current info from the footer into that page), a sign in page, etc.
+
+Fernando - 
+
+Nathan - 
+
+Chase - 
