@@ -32,7 +32,8 @@ Phillip - Creating actual user functionality, Filtering data, Receiving user inp
 
 Trenton - I'll be adding pages to the website like the about us, contact us, user login page, advanced search, account page etc.
 
-Fernando - Pending rates from commercial APIs, assist in API implementation
+Fernando - Continue gathering free data sets and merge to create a diverse and extensive dataabase.
+		   Follow up on API's referenced by USAA presenter and find alternatives that are free.
 
 Nathan - Added SQLite database and explored flask functions. Next step find api and work on web intigration.
 
@@ -49,7 +50,7 @@ Phillip -
 Trenton - I'll be working more with the frontend to modify that about us page, I'll also be changing up the header/footer,
 	  adding a contact us page (moving the current info from the footer into that page), a sign in page, etc.
 
-Fernando - 
+Fernando - Pending rates from commercial APIs, I will assist in API implementation
 
 Nathan - 
 
