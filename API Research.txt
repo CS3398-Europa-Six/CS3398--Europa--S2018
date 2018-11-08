@@ -1,0 +1,60 @@
+API Research
+
+
+		All other API services found were only paid services and required inquiries to receive information on pricing and 
+	specific methods provided. The ideal solution would have been the Edmunds API. Unfortunately, this service was no longer
+	supported and forced us to search for an alternative provider. I followed up on the leads provided by the USAA guest 
+	lecturer: ChromeData, Blackbook, and CarQuery. After failed attempts at obtaining a student trial, they were ruled out
+	 and I eventually found MarketCheck. Thanks to the generous offer of Dr. Lehr, it is now very likely that we will integrate
+	 an API service to supplement our site features. 
+
+MarketCheck - https://www.marketcheck.com/apis
+	Paid for API service with 1 month trial version that charges per API calls.
+
+		I registered under the trial version to be able to examine what services MarketCheck can provide for our project.
+	Overall, MarketCheck does have relevant car services that can serve as additional features. These services, however,
+	do not provide the basic car data we need that would serve as the main purpose of Supercharged. MarketCheck was the most 
+	transparent company in terms of products and pricing. 
+
+		An example of how a car information API would be used can be seen with examples from MarketCheck. An ideal UX would
+	allow the customer to query information on his/her desired vehicle. After building significant interest in a vehicle,
+	an Inventory search or Dealer query would be invoked to find the desired vehicle in the local area. If it is an used vehicle,
+	the VIN Decoder may be used to provide information similar to a CARFAX report.
+
+
+	All API methods provided are Get request methods.
+	API services include: 
+		-Inventory Search
+			/search - Lookup New / Used / Certified cars for sale in US & Canada by various search criteria,
+					 build search drill-downs using Facets, get market averages for price, miles, Days on Market
+
+			/listing/{id} - Get all available data about a listing returned by /search endpoint
+
+			/listing/{id}/extra - Get available options, features and seller comments for a listing
+
+			/listing/{id}/media - Get avilable photos, videos for a listing
+
+			/search/auto-complete - Auto-complete the inputs of your end users
+
+		-VIN History
+			/history - Lookup online listing history for a VIN
+
+		-Dealer
+			/dealers - Search dealers around a location
+
+			/dealer/{id} - Get available dealer info by id
+
+		-Basic VIN Decoder
+			/vin/{vin}/specs - Decode a VIN to its specs
+
+		-CRM Cleanse
+			/crm_check/{vin} - Perform a CRM cleanse check on a 
+
+		-Market
+			/mds - Get Market Days Supply value for a car
+
+			/sales - Get a sales count for city, state or national level by make, model, year, trim or taxonomy vin
+
+			/popular/cars - Get make model wise top 50 popular cars on national, state, city level
+
+			/stats - National, state and city level stats for price, miles and dom
