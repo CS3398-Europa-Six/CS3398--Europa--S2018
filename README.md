@@ -35,6 +35,6 @@ Trenton - I'll be adding pages to the website like the about us, contact us, use
 Fernando - Continue gathering free data sets and merge to create a diverse and extensive dataabase.
 		   Follow up on API's referenced by USAA presenter and find alternatives that are free.
 
-Nathan - Added SQLite database and explored flask functions.
+Nathan - Added SQLite database and explored flask functions. Next step find api and work on web intigration.
 
 Chase - Help work on database functionality and information/access
