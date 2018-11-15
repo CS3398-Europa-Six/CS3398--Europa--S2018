@@ -52,6 +52,6 @@ Trenton - I'll be working more with the frontend to modify that about us page, I
 
 Fernando - Pending rates from commercial APIs, I will assist in API implementation
 
-Nathan - 
+Nathan - Learn how to manipulate .db file to display on website and develope flask functions 
 
 Chase - Expand the existing db files. Then we need to get the website to display more information with queries. Also look into the alternative of an existing API. Can look into method to have user/pass into a users.db
