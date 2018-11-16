@@ -105,7 +105,7 @@ public class dbmain {
 					stmt.executeUpdate(buffa);
 					buffa = infile.readLine();
 				}
-				
+				System.out.print("\ncommands finished\n");
 				infile.close();
             } catch(IOException e) { System.out.println(e.getMessage()); }
         } catch (SQLException e) { System.out.println(e.getMessage());
@@ -129,12 +129,12 @@ public class dbmain {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-//    	System.out.println("Creating database ... ");
-//      createNewDatabase("clptest.db");
+    	System.out.println("Creating database ... ");
+        createNewDatabase("cqa.db");
 //      System.out.println("Connecting to database ... ");
 //      connect("clptest.db");
-//      System.out.println("Running query file ... ");
-//      runQuery("clptest.db","c:/users/chaselp/developer/sqlite/epa16tstcar.sql",1);
+      System.out.println("Running query file ... ");
+      runQuery("cqa.db","c:/users/chaselp/developer/sqlite/cqa.sql",true);
 //
 //    	System.out.println("select manufacturers from epa2016");
 //      runQuery("clptest.db","select VehicleManufacturerName from epa2016",false);
