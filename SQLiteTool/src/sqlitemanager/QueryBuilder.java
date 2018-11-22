@@ -5,6 +5,8 @@
  */
 package sqlitemanager;
 
+import java.awt.event.ItemEvent;
+import java.awt.event.ItemListener;
 import java.sql.SQLException;
 import java.util.Vector;
 
@@ -42,12 +44,10 @@ public class QueryBuilder extends javax.swing.JFrame {
     	this.SearchColumnComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(tempstr));
     	this.SortColumnComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(tempstr));
     	this.ActiveDBFileLabel.setText("File: " + this.dbserv.getDBPath());
-    	allcols = new Vector<String>();
-    	alltables = new Vector<String>();
     	activecols = new Vector<String>();
     	criterion = new Vector<String>();
     }
-    
+        
     private Vector<String> allcols;
     private Vector<String> alltables;
     private Vector<String> activecols;
@@ -69,7 +69,24 @@ public class QueryBuilder extends javax.swing.JFrame {
             sortascending = true;
     	}
     }                                           
-
+    private void TableComboBoxSelection(ItemEvent evt) {
+    	String newtable = String.valueOf(this.TableComboBox.getSelectedItem());
+    	if (newtable == this.tablename) return;
+    	this.tablename = newtable;
+    	try {
+			this.dbserv.setactivetable(newtable);
+		} catch (SQLException e) { return; }
+    	this.allcols = this.dbserv.getcolumns();
+    	String tempstr[] = new String[allcols.size()];
+    	int i = 0;
+    	for (String s : allcols) {
+    		tempstr[i] = s;
+    		++i;
+    	}
+    	this.ActiveColumnComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(tempstr));    	
+    	this.SearchColumnComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(tempstr));
+    	this.SortColumnComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(tempstr));
+    }
     private void AddActiveColButtonActionPerformed(java.awt.event.ActionEvent evt) {                                                   
         String addme = String.valueOf(this.ActiveColumnComboBox.getSelectedItem());
         if (this.activecols.size() > 0 && this.activecols.contains(addme)) return;
@@ -304,6 +321,12 @@ public class QueryBuilder extends javax.swing.JFrame {
         TableLabel.setText("Table:");
 
         TableComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "" }));
+        
+        TableComboBox.addItemListener(new ItemListener() {
+        	public void itemStateChanged(ItemEvent evt) {
+        		TableComboBoxSelection(evt);
+        	}
+        });
 
         RemoveColumnButton.setText("Remove");
         RemoveColumnButton.addActionListener(new java.awt.event.ActionListener() {
