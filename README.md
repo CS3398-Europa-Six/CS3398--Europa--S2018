@@ -5,16 +5,16 @@ Final Review and Retrospective Readme Info
 TEAM
 -How to build
 	
--What went well
-	-Each team member vastly increased personal knoledge of web development 
-	-The team was supportive of other members and gave positive feedback to eachother
-	-We completed a finished demo web page that addressed our team goal of a car database webpage
-	-The collection of data and the proper frameworks to use for displaying said data
--Impedements
-	-Underestimating goals and how long they would take to complete
--Improvments
-	-Start with a clear understanding of what skills we need to learn and accomplish them in a timely matter
-	-Have more off campus team meetings with clear undertanding of what our sprint goals are
+WHAT WENT WELL
+-Each team member vastly increased personal knoledge of web development 
+-The team was supportive of other members and gave positive feedback to eachother
+-We completed a finished demo web page that addressed our team goal of a car database webpage
+-The collection of data and the proper frameworks to use for displaying said data
+IMPEDEMENTS
+-Underestimating goals and how long they would take to complete
+IMPROVEMENTS
+-Start with a clear understanding of what skills we need to learn and accomplish them in a timely matter
+-Have more off campus team meetings with clear undertanding of what our sprint goals are
 
 
 
