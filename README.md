@@ -30,10 +30,12 @@ Nathan Hancock
 Phillip Tran
 	- Code is in main branch, which includes stuff in CS3398--Europa--S2018/frontend/europa-fe/src/app/ (All of the modules besides 	about), as well as the stuff in CS3398--Europa--S2018/backend/client/
 	
-	- The modules were responsible for creating the main dashboard application for the project as well as the API which was 		responsible for handling the requests to the database.
+	- The modules were responsible for creating the main dashboard application for the project as well as the API which was responsible for handling the requests to the database.
 	
-	- I completed my objectives/improvements for Sprint 2, however, I had to sort of band aid the application. The pages present 		records from the database in a random sort of way, because there were issues with the preflight headers when trying to post user 	 input to the server. This can be seen in the diceroll area of the application.
+	- I completed my objectives/improvements for Sprint 2, however, I had to sort of band aid the application. The pages present records from the database in a random sort of way, because there were issues with the preflight headers when trying to post user 	 input to the server. This can be seen in the diceroll area of the application.
+	
 	Status: Well, the semester is over so I probably will not be working on this project for a while.
+	
 	Next step: I will be continuously hosting the application on our server for a month period for it to be graded
 	
 
