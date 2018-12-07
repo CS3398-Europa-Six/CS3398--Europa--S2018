@@ -4,8 +4,9 @@ Final Review and Retrospective Readme Info
 
 TEAM
 	How to build
-		-
-		-
+		-Hello. We have hosted the application for you to easily access it on our linux server. To access it,
+		insert http://45.33.13.200:4200/home into your browser and hit enter.
+		-Otherwise, you can scroll down to the full installation instructions below.
 	WHAT WENT WELL
 		-Each team member vastly increased personal knoledge of web development 
 		-The team was supportive of other members and gave positive feedback to eachother
@@ -23,6 +24,14 @@ Nathan Hancock
 	- Code is in main directory which includes data.sql, carData.db, sqlConvert.py
 	- This python program added a carData.db file which include basic car database for the site to use
 	- Measurable improvement was the understanding and integration of a sqlite file on the web page
+	
+Phillip Tran
+	- Code is in main branch, which includes stuff in CS3398--Europa--S2018/frontend/europa-fe/src/app/ (All of the modules besides 	about), as well as the stuff in CS3398--Europa--S2018/backend/client/
+	- The modules were responsible for creating the main dashboard application for the project as well as the API which was 		responsible for handling the requests to the database.
+	- I completed my objectives/improvements for Sprint 2, however, I had to sort of band aid the application. The pages present 		records from the database in a random sort of way, because there were issues with the preflight headers when trying to post user 	 input to the server. This can be seen in the diceroll area of the application.
+	Status: Well, the semester is over so I probably will not be working on this project for a while.
+	Next step: I will be continuously hosting the application on our server for a month period for it to be graded
+	
 
 
 
@@ -77,7 +86,7 @@ Current Status : The website has more pages added to it, we finally got the data
 		 website and can start displaying all the data
 		 
 Next thing to work on:
-Phillip - 
+Phillip - I'll be working more with the Python Application to populate the web page with usable data for the user
 
 Trenton - I'll be working more with the frontend to modify that about us page, I'll also be changing up the header/footer,
 	  adding a contact us page (moving the current info from the footer into that page), a sign in page, etc.
