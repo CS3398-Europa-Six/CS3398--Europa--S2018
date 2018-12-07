@@ -12,7 +12,9 @@ import { SimplesearchComponent } from './simplesearch/simplesearch.component';
 import { AdvancedSearchComponent } from './advanced-search/advanced-search.component';
 import { ContactComponent } from './contact/contact.component';
 import { AddCarComponent } from './dash/add-car/add-car.component';
+import { SingleComponent } from './dash/single/single.component';
 import { AboutComponent } from './about/about.component';
+import { DicerollComponent } from './dash/cars/diceroll.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -27,8 +29,10 @@ const routes: Routes = [
         { path: 'simplesearch', component: SimplesearchComponent},
 	{ path: 'advancedsearch', component: AdvancedSearchComponent },
         { path: 'addcar', component: AddCarComponent },
+	 { path: 'diceroll', component: DicerollComponent},  
      ]
   },
+  { path: 'single', component: SingleComponent },
   { path: 'about', component: AboutComponent},   
 ]
 @NgModule({

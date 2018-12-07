@@ -6,12 +6,6 @@ import { Car } from './car';
 import 'rxjs/add/observable/throw';
 import { throwError } from 'rxjs';
 
-const httpOptions = {
-     headers: new HttpHeaders({
-      'Content-Type':  'application/json',
-     })
-   };
-
 
 @Injectable({
   providedIn: 'root'
@@ -24,8 +18,14 @@ export class CarsApiService {
   }
   getCars(): Observable<any>{
       return this.http
-         .get<any>("http://45.33.13.200:5000/cars")
+         .get<any>("http://45.33.13.200:5000/get_cars")
+	 .catch(CarsApiService._handleError);
+  }
+  diceroll(): Observable<any>{
+      return this.http
+         .get<any>("http://45.33.13.200:5000/diceroll")
 	 .catch(CarsApiService._handleError);
   }
 
+  
 }

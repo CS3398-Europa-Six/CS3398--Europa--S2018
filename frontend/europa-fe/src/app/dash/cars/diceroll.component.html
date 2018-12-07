@@ -1,0 +1,56 @@
+<a href="./dash/diceroll"> Lootbox Mechanics are Great </a>
+<div class="card" *ngFor="let car of carsList" style="width: 70rem;">
+	<div class="card-body">
+	<div class="card-block px-3">
+     		 <h5 class="card-title">{{car.model_make_id}} - {{car.model_trim}}</h5>
+	<div class="row">
+	<div class="col">
+		<ul class="list-group list-group-flush">
+      		  <li class="list-group-item">Year: {{car.model_year}}</li>
+     		   <li class="list-group-item">Body: {{car.model_body}}</li>
+			  <li class="list-group-item">Engine Position: {{car.model_engine_position}}</li>
+			<li class="list-group-item">Engine CC: {{car.model_engine_cc}}</li>
+			<li class="list-group-item">Cylinders: {{car.model_engine_cyl}}</li>
+			<li class="list-group-item">Engine Type: {{car.model_engine_type}}</li>
+			<li class="list-group-item">Horsepower: {{car.model_engine_power_ps}}</li>
+		</ul>
+	</div>
+	<div class="col">
+		<ul class="list-group list-group-flush">
+			<li class="list-group-item">RPM: {{car.model_engine_power_rpm}}</li>
+			<li class="list-group-item">Torque(NM): {{car.model_engine_torque_nm}}</li>
+			<li class="list-group-item">Torque(RPM): {{car.model_engine_torque_rpm}}</li>
+			<li class="list-group-item">Engine Bore(MM): {{car.model_engine_bore_mm}}</li>
+			<li class="list-group-item">Engine Stroke(MM): {{car.model_engine_engine_stroke_mm}}</li>
+			<li class="list-group-item">Engine Compression: {{car.model_engine_compression}}</li>
+			<li class="list-group-item">Engine Fuel: {{car.model_engine_fuel}}</li>
+			<li class="list-group-item">Top Speed: {{car.model_top_speed_kph}}</li>
+			<li class="list-group-item">0-100kph: {{car.model_0_to_100_kph}}</li>
+			<li class="list-group-item">Drive: {{car.model_drive}}</li>
+			<li class="list-group-item">Transmission: {{car.model_transmission_type}}</li>
+			<li class="list-group-item">Seats: {{car.model_seats}}</li>
+		</ul>
+	</div>
+	<div class="col">
+		<ul class="list-group list-group-flush">
+			<li class="list-group-item">Model Doors: {{car.model_doors}}</li>
+			<li class="list-group-item">Weight(kg): {{car.model_weight_kg}}</li>
+			<li class="list-group-item">Length: {{car.model_length_mm}}</li>
+			<li class="list-group-item">Width: {{car.model_width_mm}}</li>
+			<li class="list-group-item">Height: {{car.model_height_mm}}</li>
+			<li class="list-group-item">Wheelbase(mm): {{car.model_wheelbase_mm}}</li>
+			<li class="list-group-item">Highway Fuel Consumption(lkm): {{car.model_lkm_hwy}}</li>
+			<li class="list-group-item">Mixed Fuel Consumption(lkm): {{car.model_lkm_mixed}}</li>
+			<li class="list-group-item">City Fuel Consumption(lkm): {{car.model_lkm_city}}</li>
+			<li class="list-group-item">Vehicle Fuel Cap: {{car.model_fuel_cap_1}}</li>
+			<li class="list-group-item">Sold in US: {{car.model_sold_in_us}}</li>
+			<li class="list-group-item">Vehicle co2 Emissions: {{car.model_co2}}</li>
+  		</ul>
+
+	</div>
+	</div>
+
+	</div>
+	</div>
+
+</div>
