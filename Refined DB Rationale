@@ -1,0 +1,26 @@
+Overkill Data Fields - datafield catagories that even casual gearheads would not understand, much less a layman;
+					   datafield may be useless
+	model_wheelbase_mm - wheel base size in millimeters
+	model_sold_in_us - seems obvious that most/all models are unique objects. (2013 Red Mustang V6 and 2013 Blue Mustang V6 are still
+						the same 2013 V6 model)
+	model_engine_bore_mm - bore or piston field of motion is not generally factored for purchase
+	model_engine_stroke_mm - stroke, similar to bore, is not commonly considered for casual users
+	model_co2 - datafield could be good for this growing eco-mindful market but entire field is NULL
+	model_make_display - seems irrelevant; field is same as model_make_id
+	model_engine_torque_rpm - consider removing; can aid model_engine_torque_nm but too technical
+
+
+Data Fields to be converted to Customary from Metric
+	model_0_to_100_kph - RENAME to  60 mph
+	model_top_speed_kph - convert to mph
+	model_weight_kg - convert to lbs
+	model_length_mm - convert to inches
+	model_width_mm - convert to inches
+	model_height_mm - convert to inches
+	model_lkm_hwy - convert to mpg; RENAME
+	model_lkm_mixed - convert to mpg; RENAME
+	model_lkm_city - convert to mpg; RENAME
+	model_engine_cc - separate column converted to liters; depending on user, unit measurement for engine block size is a preference
+	model_engine_power_ps - Pferdestrke (literally, 'horse strength'); RENAME ps portion to hp
+	model_engine_torque_nm - Newton meter; RENAME nm to lb_ft
+	model_fuel_cap_l - fuel tank, RENAME to gallons

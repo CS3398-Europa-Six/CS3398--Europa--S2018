@@ -1,5 +1,37 @@
 # CS3398--Europa--S2018
 
+Final Review and Retrospective Readme Info
+
+TEAM
+	How to build
+		-
+		-
+	WHAT WENT WELL
+		-Each team member vastly increased personal knoledge of web development 
+		-The team was supportive of other members and gave positive feedback to eachother
+		-We completed a finished demo web page that addressed our team goal of a car database webpage
+		-The collection of data and the proper frameworks to use for displaying said data
+	IMPEDEMENTS
+		-Underestimating goals and how long they would take to complete
+	IMPROVEMENTS
+		-Start with a clear understanding of what skills we need to learn and accomplish them in a timely matter
+		-Have more off campus team meetings with clear undertanding of what our sprint goals are
+
+
+
+Nathan Hancock
+	- Code is in main directory which includes data.sql, carData.db, sqlConvert.py
+	- This python program added a carData.db file which include basic car database for the site to use
+	- Measurable improvement was the understanding and integration of a sqlite file on the web page
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------------------------------------------
 Supercharged is currently in its alpha state:
 
 Version 0.0.0
